@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: max(18px);
+    line-height: 1.5;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+p { opacity: 0.5;}
+
+.container {
+    max-width: 1440px;
+    margin: 150px auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.container h1 {
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+}
+
+.work-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;   
+}
+
+.work-flex img {
+    height: 7px;
+    align-self: center;
+}
+
+.jeremy {
+    border-radius: 20px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 30px;
+    font-weight: 300;
+}
+
+.jeremy h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.jeremy img {
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.grid1 {
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    grid-row: 1 / 3;
+}
+
+.grid1 ul {
+    margin: 30px;
+}
+
+.grid2 {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+    display: flex;
+}
+
+.grid2 .work {
+    border-radius: 15px;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    width: 100%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.grid2 .work:hover {
+    background-color:hsl(235, 45%, 61%);
+}
+
+.grid3 {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(../images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+    display: flex;
+}
+
+.grid3 .play {
+    border-radius: 15px;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    width: 100%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.grid3 .play:hover {
+    background-color:hsl(235, 45%, 61%);
+}
+
+.grid4 {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(../images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+    display: flex;
+}
+
+.grid4 .study {
+    border-radius: 15px;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    width: 100%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.grid4 .study:hover {
+    background-color:hsl(235, 45%, 61%);
+}
+
+.grid5 {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(../images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+    display: flex;
+}
+
+.grid5 .exercise {
+    border-radius: 15px;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    width: 100%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.grid5 .exercise:hover {
+    background-color:hsl(235, 45%, 61%);
+}
+
+.grid6 {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(../images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+    display: flex;
+}
+
+.grid6 .social {
+    border-radius: 15px;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    width: 100%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.grid6 .social:hover {
+    background-color:hsl(235, 45%, 61%);
+}
+
+.grid7 {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(../images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 20px;
+    display: flex;
+}
+
+.grid7 .self {
+    border-radius: 15px;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px 30px;
+    width: 100%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.grid7 .self:hover {
+    background-color:hsl(235, 45%, 61%);
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: hsl(235, 45%, 61%);
+    opacity: 1;
+}
+
+
+@media (max-width: 760px) {
+    .container {
+        margin: 10px auto;
+        grid-template-columns: 1fr;
+    }
+
+    .grid1 {
+        grid-row: 1 / 2;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container h1 {
+        margin: 5px 0px;
+        font-size: 2rem;
+    }
+
+    .container .jeremy p {
+        margin: 0;
+    }
+
+    .container p {
+        margin-bottom: 20px;
+    }
+
+    .work-flex {
+        margin: 0px;  
+    }
+
+    .work-flex h4 {
+        font-size: 1rem;
+    }
+
+    
+    
+}
