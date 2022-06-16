@@ -1,4 +1,6 @@
-# Frontend Mentor - Time tracking dashboard
+# Frontend Mentor Challenge, Coded by Fearless Tech. - Time tracking dashboard
+
+https://fearless09.github.io/time-tracking-dashboard-main/
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
 
